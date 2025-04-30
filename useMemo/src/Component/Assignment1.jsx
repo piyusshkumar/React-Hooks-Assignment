@@ -5,7 +5,7 @@ import { useMemo, useState } from "react"
 
 
 
-function App() {
+ export function Assignment1() {
 
     const [count, setCount] = useState()
 
@@ -42,3 +42,6 @@ function App() {
 }
 
 export default App
+ 
+ 
+ 

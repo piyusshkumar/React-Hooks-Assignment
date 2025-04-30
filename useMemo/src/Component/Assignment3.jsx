@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 // Assignment is that we have purchased some items form markets you have to written the total value and list of items with its own price
 
 
-function App() {
+ export function Assignment3() {
 
   const [items , setitems] = useState([
     {naam: "Chocolate" , value: 200},

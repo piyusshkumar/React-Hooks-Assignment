@@ -22,7 +22,7 @@ for (let i = 0; i < TOTAL_lines; i++) {
     All_words.push(sentences)
 }
 
-function App() {
+ export function Assignment2() {
     const [sentence, setSentence] = useState(All_words)
     const [filter, setFilter] = useState()
 
